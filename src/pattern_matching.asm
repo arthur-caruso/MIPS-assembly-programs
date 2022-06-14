@@ -1,6 +1,7 @@
 # The following MIPS assembly code mimics the behavior of
 # this C language high-level code below:
 
+################################################################################
 # include <stdio.h>
 # include <stdlib.h>
 #
@@ -57,6 +58,7 @@
 # 	else
 #		return encontraPadrao(_vetDados, _posDados++, _vetPadrao, _posPadrao++, _tamPadrao);
 # }
+################################################################################
 
 .data
 # variáveis de encontraPadrao
