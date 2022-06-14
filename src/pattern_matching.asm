@@ -62,11 +62,11 @@
 
 .data
 # variáveis de encontraPadrao
-# _vetDados ($s0)	.space 4
-# _posDados ($s1)	.space 4 (stack)
-# _vetPadrao ($s2)	.space 4
-# _posPadrao ($s3)	.space 4 (stack)
-# _tamPadrao ($s4)	.space 4
+# _vetDados	($s0)		.space 4
+# _posDados	($s1)		.space 4 (stack)
+# _vetPadrao	($s2)		.space 4
+# _posPadrao	($s3)		.space 4 (stack)
+# _tamPadrao	($s4)		.space 4
 
 # variáveis de carregaVetor
 # _enderecoVetor ($a1)	.space 4
