@@ -18,6 +18,8 @@ exp:	.word 4
 val:	.space 4
 
 .text
+.globl main
+
 main:
 	lw $v1, base
 	lw $a1, base
