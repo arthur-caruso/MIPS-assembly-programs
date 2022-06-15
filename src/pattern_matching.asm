@@ -92,7 +92,7 @@ numeroPrompt:	.asciiz "\t-> Informe um número a ser inserido: "
 contabOut:		.asciiz "\n[contabilizaPadrao] = "
 
 .text
-
+.globl main
 main:
 	la $a0, dadosPrompt
 	li $v0, 4
